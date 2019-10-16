@@ -102,3 +102,4 @@ RSpec.configure do |config|
   RSpec.configure do |config|
     # a lot of code
 end
+end

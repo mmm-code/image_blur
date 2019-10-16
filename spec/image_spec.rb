@@ -22,7 +22,7 @@ RSpec.describe Image, type: :model do
         ]
       
       image = Image.new(input)
-      expect(image.blur.data).to eq expected
+      expect(image.transform).to eq expected
     end
   end
 end
