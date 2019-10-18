@@ -42,6 +42,7 @@ class Image
 
     array_coords.each do |x, y|
       blur(x, y)
+    return @array  
     end  
   end
 
